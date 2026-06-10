@@ -1,0 +1,66 @@
+h1 { 
+    color: rgb(87, 33, 33);
+    width: 200px;
+    padding: 20px;
+    border: 3px solid black;
+    margin: 30px; 
+    }
+
+h3 { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; 
+    }
+
+.test { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px; 
+}
+
+.mycontainer {
+  display: flex;
+  background-color: #6C3FC7;
+}
+.mycontainer > div {
+  width:33%;
+}
+
+.Background{
+  background-color: #6C3FC7;
+  background-image: url(download.webp);
+  background-size: cover;
+
+  border-radius
+: 12px;
+  border: 2px solid #00C9B1;
+
+  box-shadow
+: 0 4px 16px
+    rgba(0,0,0,0.2);
+
+  opacity
+: 0.9;
+}
+
+/* Tag selector */
+h1 {
+    color: blue;
+}
+
+/* Class selector */
+.heading {
+    color: green;
+}
+
+/* ID selector */
+#title {
+    color: red;
+}
+
+/* Important */
+h1 {
+    color: purple !important;
+}
